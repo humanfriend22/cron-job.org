@@ -1,0 +1,33 @@
+{
+  "name": "cron-job.org",
+  "version": "0.0.1",
+  "description": "A simple TypeScript wrapper for the cron-job.org API",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humanfriend22/cron-job.org.git"
+  },
+  "author": {
+    "name": "humanfriend22",
+    "email": "humanfriend22@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/humanfriend22/cron-job.org/issues"
+  },
+  "homepage": "https://github.com/humanfriend22/cron-job.org#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
